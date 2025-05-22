@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript DOM Manipulation</h1>
+        <p>Learn how to manipulate the DOM with JavaScript</p>
+    </header>
+
+    <main>
+        <section id="text-manipulation">
+            <h2>Text Manipulation</h2>
+            <p id="dynamic-text">This text will change when you click the button below.</p>
+            <button id="change-text-btn">Change Text</button>
+        </section>
+
+        <section id="style-manipulation">
+            <h2>Style Manipulation</h2>
+            <div id="style-box" class="box">This box's style will change</div>
+            <button id="change-style-btn">Change Style</button>
+        </section>
+
+        <section id="element-manipulation">
+            <h2>Element Manipulation</h2>
+            <div id="element-container">
+                <p>Click the button to add or remove elements</p>
+            </div>
+            <button id="add-element-btn">Add Element</button>
+            <button id="remove-element-btn">Remove Element</button>
+        </section>
+
+        <section id="counter">
+            <h2>Counter Example</h2>
+            <p>Current count: <span id="count">0</span></p>
+            <button id="increment-btn">Increment</button>
+            <button id="decrement-btn">Decrement</button>
+            <button id="reset-btn">Reset</button>
+        </section>
+
+        <section id="form-validation">
+            <h2>Form Validation</h2>
+            <form id="sample-form">
+                <div class="form-group">
+                    <label for="username">Username (at least 5 characters):</label>
+                    <input type="text" id="username" name="username">
+                    <span id="username-error" class="error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <span id="email-error" class="error"></span>
+                </div>
+                <button type="submit" id="submit-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 JavaScript DOM Manipulation Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
